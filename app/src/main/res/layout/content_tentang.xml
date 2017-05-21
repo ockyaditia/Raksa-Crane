@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.ockyaditiasaputra.raksacrane.TentangActivity"
+    tools:showIn="@layout/activity_tentang">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="wrap_content"
+            android:layout_height="350px"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/abouts" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:text="MEET OUR LEADERS"
+            android:layout_marginTop="10dp"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="#FFFFFF"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="right"
+            android:paddingLeft="@dimen/activity_horizontal_margin"
+            android:paddingRight="@dimen/activity_horizontal_margin"
+            android:text="They have learned through the many years of practice that the home remodeling experience can be enjoyable and exciting if you have the right people in place from the beginning."
+            android:layout_marginTop="10dp"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="#FFFFFF"
+            android:textStyle="bold"
+            android:background="#FFC000"/>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30px"
+            android:layout_gravity="left"
+            android:orientation="horizontal"
+            android:paddingRight="@dimen/activity_horizontal_margin">
+
+            <ImageView
+                android:id="@+id/user1"
+                android:layout_width="160px"
+                android:layout_height="160px"
+                android:layout_marginLeft="16px"
+                android:layout_marginRight="15px"
+                android:background="@drawable/us" />
+
+            <ImageView
+                android:id="@+id/user2"
+                android:layout_width="160px"
+                android:layout_height="160px"
+                android:layout_marginRight="15px"
+                android:background="@drawable/us" />
+
+            <ImageView
+                android:id="@+id/user3"
+                android:layout_width="160px"
+                android:layout_height="160px"
+                android:layout_marginRight="15px"
+                android:background="@drawable/us" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:orientation="horizontal"
+            android:paddingRight="@dimen/activity_horizontal_margin">
+
+            <TextView
+                android:layout_width="160px"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:layout_marginLeft="16px"
+                android:layout_marginRight="15px"
+                android:text="H. SAKAM"
+                android:layout_marginTop="10dp"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textColor="#FFFFFF"
+                android:textStyle="bold"
+                android:textSize="12sp"/>
+
+            <TextView
+                android:layout_width="160px"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:layout_marginRight="15px"
+                android:text="DEDE SUHERLAN S.E"
+                android:layout_marginTop="10dp"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textColor="#FFFFFF"
+                android:textStyle="bold"
+                android:textSize="12sp" />
+
+            <TextView
+                android:layout_width="160px"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:layout_marginRight="15px"
+                android:text="HJ. NENGSIH"
+                android:layout_marginTop="10dp"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textColor="#FFFFFF"
+                android:textStyle="bold"
+                android:textSize="12sp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:orientation="horizontal"
+            android:paddingRight="@dimen/activity_horizontal_margin">
+
+            <TextView
+                android:layout_width="160px"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:layout_marginLeft="16px"
+                android:layout_marginRight="15px"
+                android:text="Komisaris Utama"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textColor="#FFFFFF"
+                android:textStyle="bold"
+                android:textSize="12sp"/>
+
+            <TextView
+                android:layout_width="160px"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:layout_marginRight="15px"
+                android:text="Direktur Utama"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textColor="#FFFFFF"
+                android:textStyle="bold"
+                android:textSize="12sp" />
+
+            <TextView
+                android:layout_width="160px"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:layout_marginRight="15px"
+                android:text="Direktur Keuangan"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textColor="#FFFFFF"
+                android:textStyle="bold"
+                android:textSize="12sp" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</RelativeLayout>

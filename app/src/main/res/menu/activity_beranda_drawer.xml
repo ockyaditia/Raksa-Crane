@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="User Panel">
+        <menu>
+            <item
+                android:id="@+id/home"
+                android:icon="@drawable/home"
+                android:title="Beranda" />
+            <item
+                android:id="@+id/profile"
+                android:icon="@drawable/friends_profile"
+                android:title="Profile" />
+            <item
+                android:id="@+id/beli"
+                android:icon="@drawable/keranjang"
+                android:title="Daftar Pembelian/Sewa" />
+            <item
+                android:id="@+id/bantuan"
+                android:icon="@drawable/help"
+                android:title="Bantuan" />
+        </menu>
+    </item>
+
+</menu>

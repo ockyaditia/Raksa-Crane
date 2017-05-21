@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:background="@drawable/w9"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".OrderJualActivity"
+    tools:showIn="@layout/activity_order_jual">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:layout_marginTop="10dp"
+            android:text="Nama Produk"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="#FFFFFF"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/order_judul"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/edittext_top_bg"
+            android:editable="false"
+            android:inputType="none"
+            android:padding="10dp"
+            android:singleLine="true"
+            android:textColorHint="#cccccc" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:text="Kapasitas (ton)"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="#FFFFFF"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/produk_kapasitas"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/edittext_top_bg"
+            android:editable="false"
+            android:inputType="none"
+            android:padding="10dp"
+            android:singleLine="true"
+            android:textColorHint="#cccccc" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:text="Boom"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="#FFFFFF"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/produk_boom"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/edittext_top_bg"
+            android:editable="false"
+            android:inputType="none"
+            android:padding="10dp"
+            android:singleLine="true"
+            android:textColorHint="#cccccc" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:text="Jib"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="#FFFFFF"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/produk_jib"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/edittext_top_bg"
+            android:editable="false"
+            android:inputType="none"
+            android:padding="10dp"
+            android:singleLine="true"
+            android:textColorHint="#cccccc" />
+
+        <EditText
+            android:id="@+id/order_bank"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/edittext_top_bg"
+            android:inputType="text"
+            android:hint="Nama Bank"
+            android:padding="10dp"
+            android:singleLine="true"
+            android:textColorHint="#cccccc" />
+
+        <EditText
+            android:id="@+id/order_atas_nama"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/edittext_top_bg"
+            android:inputType="text"
+            android:hint="Atas Nama"
+            android:padding="10dp"
+            android:singleLine="true"
+            android:textColorHint="#cccccc" />
+
+        <EditText
+            android:id="@+id/order_nomor_transfer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/edittext_top_bg"
+            android:inputType="number"
+            android:hint="Nomor Rekening"
+            android:padding="10dp"
+            android:singleLine="true"
+            android:textColorHint="#cccccc" />
+
+        <TextView
+            android:id="@+id/error"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="10dp"
+            android:textColor="#FF0000" />
+
+        <Button
+            android:id="@+id/validasi"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="20dp"
+            android:background="@drawable/button_default_bg3"
+            android:text="Validasi Order"
+            android:textStyle="bold"
+            android:textColor="#FFFFFF"
+            android:textSize="18sp" />
+
+    </LinearLayout>
+
+</ScrollView>

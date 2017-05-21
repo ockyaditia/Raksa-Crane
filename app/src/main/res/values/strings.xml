@@ -1,0 +1,38 @@
+<resources>
+    <string name="app_name">Raksa Crane</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_login">Login</string>
+    <string name="title_activity_register">Register</string>
+    <string name="title_activity_home">Home</string>
+    <string name="title_activity_beranda">Beranda</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="title_activity_tentang">Tentang Kami</string>
+    <string name="title_activity_kontak">Kontak Kami</string>
+    <string name="title_activity_profile">Profile</string>
+    <string name="title_activity_bantuan">Bantuan</string>
+
+    <string-array name="perihal">
+        <item>Stock</item>
+        <item>Pembayaran</item>
+        <item>Customer Service</item>
+    </string-array>
+
+    <string-array name="bank">
+        <item>BCA</item>
+        <item>Mandiri</item>
+        <item>BNI</item>
+    </string-array>
+
+    <string name="title_activity_produk">Produk</string>
+    <string name="title_activity_kategori">Kategori</string>
+    <string name="title_activity_description">Description</string>
+    <string name="title_activity_order">Order Jual</string>
+    <string name="title_activity_pembelian_penyewaan">Pembelian dan Penyewaan</string>
+    <string name="title_activity_order_sewa">Order Sewa</string>
+    <string name="title_activity_validasi_order">Validasi Order</string>
+    <string name="title_activity_konfirmasi_pembayaran">Konfirmasi Pembayaran</string>
+    <string name="title_activity_detail_order">Detail Order</string>
+    <string name="title_activity_upload_image">Upload Image</string>
+</resources>

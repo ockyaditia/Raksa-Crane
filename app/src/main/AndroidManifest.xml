@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.ockyaditiasaputra.raksacrane">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/icon"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".SplashScreen"
+            android:label="@string/app_name"
+            android:noHistory="true"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".LoginActivity"
+            android:label="@string/title_activity_login"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".RegisterActivity"
+            android:label="@string/title_activity_register"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".HomeActivity"
+            android:label="@string/title_activity_home"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".BerandaActivity"
+            android:label="@string/title_activity_beranda"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".TentangActivity"
+            android:label="@string/title_activity_tentang"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".KontakActivity"
+            android:label="@string/title_activity_kontak"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".ProfileActivity"
+            android:label="@string/title_activity_profile"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".BantuanActivity"
+            android:label="@string/title_activity_bantuan"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".ProdukActivity"
+            android:label="@string/title_activity_produk"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".KategoriActivity"
+            android:label="@string/title_activity_kategori"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".DescriptionActivity"
+            android:label="@string/title_activity_description"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".OrderJualActivity"
+            android:label="@string/title_activity_order"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".PembelianPenyewaan"
+            android:label="@string/title_activity_pembelian_penyewaan"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".OrderSewaActivity"
+            android:label="@string/title_activity_order_sewa"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".ValidasiOrderActivity"
+            android:label="@string/title_activity_validasi_order"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".KonfirmasiPembayaranActivity"
+            android:label="@string/title_activity_konfirmasi_pembayaran"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".DetailOrderActivity"
+            android:label="@string/title_activity_detail_order"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".UploadImageActivity"
+            android:label="@string/title_activity_upload_image"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+    </application>
+
+</manifest>
